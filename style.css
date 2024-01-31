@@ -1,0 +1,459 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: poppins;
+}
+
+body{
+  background-image: url(images/bg-desktop.svg);
+  background-color:   hsl(257, 40%, 49%);
+  max-width: 100%;
+  height: 100vh;
+  overflow-x: auto;
+  
+
+  
+}
+
+
+.icon{
+  font-size: 60px;
+  color: white;
+  padding: 0px 20px;
+}
+
+.logo1{
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+  border: 10px solid;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5rem;
+  height: 150px;
+  padding-top: 1rem;
+}
+
+header h1{
+ color: white;
+ font-size: 4rem;
+ margin-left: 0.3rem;
+
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+section .left{
+width: 40%;
+}
+section .right{
+  width: 45%;
+  }
+
+  .hero{
+    width: 100%;
+    padding-top: 2rem ;
+  }
+
+  .right span{
+    display: block;
+  }
+
+  .right h2{
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+
+  .right p{
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    max-width: 410px;
+    margin-top: 1.2rem;
+    line-height: 1.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .right button{
+    background-color: white;
+    width: 120px;
+    margin-top: 0rem;
+    height: 41px;
+    border-radius:   2rem;
+    outline: none;
+    border: none;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 14%;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  footer i{
+    color: white;
+    font-size: 1.6rem;
+  }
+
+
+  /* MEDA QUERIES*/
+  /* MEDA QUERIES*/
+  /* MEDA QUERIES*/
+
+  @media screen and (max-width : 700px) {
+    section{
+      display: flex;
+      flex-direction: column;
+      min-height: calc(100vh - 150px);
+      padding: 0px 20px;
+    }
+
+  
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* height: 90px; */
+  padding-top: 2rem;
+  /* width: 50%; */
+/
+
+}
+
+header h1{
+ color: white;
+ font-size: 3rem;
+ /* padding-right: 30px; */
+ font-weight: 900;
+}
+.icon{
+  font-size: 70px;
+  color: white;
+ 
+}
+
+section .left{
+           width: 100%;
+      }
+  section .right{
+        width: 100%;
+        /* padding-left: 1rem; */
+        padding-top: 1.3rem;
+        align-items: center ;
+        }
+
+        
+  .right span{
+    display: inline-block;
+  }
+
+  .right h2{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .right p{
+    color: white;
+    font-weight: 800;
+    font-size:  1.3rem;
+    max-width:   90%;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    margin-bottom:  1.5rem;
+ 
+  }
+
+  footer{
+    padding-bottom: 0.9rem;
+      display: flex;
+      flex-direction:  row;
+      justify-content:center;
+      margin-right: 14%;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+  
+    footer i{
+      color: white;
+      font-size: 1.6rem;
+    }
+
+
+
+  .right button{
+    background-color: white;
+    width: 90%;
+    margin-top: 0.1rem;
+    height: 41px;
+    border-radius:   2rem;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+  }
+    
+  }
+
+
+
+  @media screen and (max-width : 500px) {
+    section{
+      display: flex;
+      flex-direction: column;
+      min-height: calc(100vh - 150px);
+      padding: 0px 10px;
+    }
+
+  
+header{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  height: 150px;
+  padding-top: rem;
+  /* width: 50%; */
+  align-items: center;
+  /* justify-content: flex-start; */
+padding: 0px 3rem;
+
+ 
+}
+
+header h1{
+ color: white;
+ font-size: 2.6rem;
+ 
+
+
+}
+
+
+.icon{
+  font-size: 50px;
+  color: white;
+padding-top: -30px;
+ 
+}
+
+   
+    section .left{
+      width: 100%;
+      }
+      section .right{
+        width: 100%;
+      /* padding: 0px 0px; */
+        /* padding-top: 1.3rem; */
+        }
+
+        
+  .right span{
+    display: inline-block;
+  }
+
+  .right h2{
+    color: white;
+    font-weight: 900;
+    font-size: 1.9rem;
+    margin-bottom: 0px;
+  }
+
+  .right p{
+    font-weight: 800;
+    font-size:  1.1rem;
+    max-width: 100%;
+    margin-top: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  footer{
+    margin-bottom: 2rem;
+  }
+    
+  }
+
+
+  @media screen and (max-width : 366px) {
+
+  header{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    height: 150px;
+    padding-top: 3rem;
+    justify-content: center ;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  
+
+   
+  }
+
+  header{
+
+    height: 150px;
+    padding-top: rem;
+    width: 50%;
+    align-items: flex-start;
+
+  
+   
+  }
+  
+  header h1{
+   color: white;
+   font-size: 2rem;
+   
+  
+  
+  }
+
+  header h1{
+ 
+   
+   
+   .icon{
+     font-size: 40px;
+     color: white;
+   padding-top: -30px;
+    
+   }
+
+  
+  }
+
+
+  @media screen and (max-width : 253px) {
+
+    header{
+      display: flex;
+      flex-direction: row;
+      /* align-items: center; */
+      height: 70px;
+      padding-top: rem;
+      justify-content: center ;
+      margin: auto;
+      padding-left: 3rem;
+      padding-right: 4rem;
+  
+     
+    }
+  
+    header{
+  
+      height: 150px;
+      padding-top: rem;
+      width: 50%;
+      align-items: flex-start;
+  
+    
+     
+    }
+    
+    header h1{
+     color: white;
+     font-size: 0,8rem;
+     
+    
+    
+    }
+  
+    
+     .icon{
+       font-size: 18px;
+       color: white;
+     padding-top: -30px;
+      
+     }
+  
+    
+    }
+  
+  
+    @media screen and (max-width : 154px) {
+
+      header{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        height: 150px;
+        padding-top: 1rem;
+        justify-content: center ;
+        padding-left: 1rem;
+        padding-right: 7rem;
+       
+    
+       
+      }
+    
+      header{
+    
+        height: 150px;
+        padding-top: rem;
+        width: 50%;
+        align-items: flex-start;
+    
+      
+       
+      }
+      
+      header h1{
+       color: white;
+       font-size: 0,8rem;
+       
+      
+      
+      }
+    
+     
+       
+       
+       .icon{
+         font-size: 18px;
+         color: white;
+       padding-top: -30px;
+        
+       }
+    
+      
+      }
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
